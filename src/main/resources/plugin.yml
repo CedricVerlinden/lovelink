@@ -1,0 +1,20 @@
+name: LoveLink
+version: '1.0-ALPHA'
+main: com.cedricverlinden.lovelink.LoveLink
+api-version: '1.21'
+authors: [ Cédric Verlinden ]
+website: cedricverlinden.com
+
+commands:
+  propose:
+    description: Propose to someone
+    usage: /propose <player>
+    permission: lovelink.propose
+  accept:
+    description: Accept a proposal
+    usage: /accept <player>
+    permission: lovelink.accept
+  decline:
+    description: Decline a proposal
+    usage: /decline <player>
+    permission: lovelink.decline

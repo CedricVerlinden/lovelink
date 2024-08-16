@@ -1,0 +1,10 @@
+commands:
+  propose:
+      to_sender: "Proposal sent to %player%"
+      to_receiver: "%player% has proposed to you! Type /accept or /decline."
+  accept:
+      to_sender: "&aYou are now a couple with %player%!"
+      to_receiver: "&a%player% accepted your proposal! You are now a couple."
+  decline:
+      to_sender: "&cYou declined the proposal from %player%."
+      to_receiver: "&c%player% declined your proposal."
